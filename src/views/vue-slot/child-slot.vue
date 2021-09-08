@@ -12,7 +12,7 @@
         </footer>
         <!-- 作用域插槽 -->
         <div class="child-slot">
-            <slot :msg="msg"></slot>
+            <slot :msg="msg" name="msg"></slot>
         </div>
     </div>
 </template>
