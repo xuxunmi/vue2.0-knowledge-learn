@@ -1,20 +1,11 @@
 {
-    ; // 在对象前后添加空格-eg: { foo: bar }
     "bracketSpacing": true,
-    ; // 超过最大值换行
     "printWidth": 100,
-    ; // 句尾添加分号
     "semi": true,
-    ; // 使用单引号
     "singleQuote": false,
-    ; // 缩进长度
     "tabWidth": 4,
-    ; // 结束行形式
     "endOfLine": "auto",
-    ; // 在对象或数组最后一个元素是否加逗号（在ES5中加逗号）
-    "trailingComma": "es5",
-    ; // 将 > 多行 JSX 元素放在最后一行的末尾，而不是单独放在下一行
+    "trailingComma": "none",
     "jsxBracketSameLine": true,
-    ; //  (x) => {} 箭头函数单参数时是否保留逗号，avoid：省略逗号  always：保留逗号
     "arrowParens": "avoid"
 }
